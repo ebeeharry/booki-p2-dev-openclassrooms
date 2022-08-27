@@ -1,5 +1,0 @@
-- Supprimer bout de code Javascript (pas trouvé)
-- Simplifier elem dans le style.css (pas fait, je crois que ça risque de déstabiliser l'ensemble)
-- Centrer le site dans une colonne de 992px de large (ou 972px avec un peu de padding latéral) en version desktop
-- Valider le dernier code
-- Héberger sur GitHub
