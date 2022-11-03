@@ -381,9 +381,11 @@ main{
   height: 155px;
 }
 .picture-activity5{
+  object-position: top;
   height: 200px;
 }
 .picture-activity6{
+  object-position: center;
   height: 180px;
 }
 
@@ -509,10 +511,22 @@ footer a{
       box-sizing: content-box;
     }
 
+    nav ul li{
+      width: 50%;
+      border-bottom: 2px solid grey;
+    }
+
+    nav ul li:hover{
+      border-bottom-color: #0065fc;
+    }
+
+    nav ul li:hover a{
+      color: #0065fc;
+    }
+
     /* ************navigation bar ***************/
     header {
       display: block;
-      border-bottom: 3px solid #f2f2f2;
       padding-bottom: 20px;
     }
     header img{
@@ -524,11 +538,17 @@ footer a{
       justify-content: space-around;
       margin-top: 30px;
     }
+
+    header ul li{
+      margin-right: 0px;
+      display: flex;
+      justify-content: center;
+    }
+
     header .border-blue:hover{
-      border-bottom: #0065fc solid 3px;
-      padding-bottom: 20px;
       border-top: none;
     }
+
     /************ search **************/
     .search-bar input{
       width: 220px;
@@ -684,7 +704,7 @@ footer a{
     .activity-section .card-column .border-activity{
       margin-bottom: 25px;
     }
-    
+
     /******* footer*****/
 
     .bloc-footer{
@@ -716,6 +736,14 @@ footer a{
   
   @media screen and (max-width: 441px){
 
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
     /***** navigation bar*****/
     /* header nav{
       flex-basis: 100%;
@@ -739,6 +767,7 @@ footer a{
       font-size: 125%;
       margin-bottom: 20px;
     }
+
     /****info******/
     .info-section .circle-info{
       margin: 0 0 20px 20px;
