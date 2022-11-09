@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
 
 * {
   margin: 0;
@@ -286,6 +285,7 @@ main{
   }
   
   /* popular */
+
   .popular-section{
     background: #F2F2F2;
     width: 30%;
@@ -439,27 +439,33 @@ footer a{
       width: 90%;
     }
 
-  /***** filters******/
+  /* filters */
+
     .filters-section{
       display: flex;
       flex-direction: column;
     }
+
     .filters-section .filters-icon{
       margin-top: 10px;
       margin-left: 20px;
     }
+
     .filters-section h3{
       margin: 25px 5px 0 30px;
       font-size: 119%;
     }
 
-    /****** accomodation******/
+    /* accomodation */
+
     .accommodation-section{
       width: 58%;
     }
+
     .accommodation-section h2{
       font-size: 119%;
     }
+
     .bloc1{
       flex-wrap: nowrap;
     }
@@ -468,29 +474,36 @@ footer a{
       width: 29%;
       height: 210px;
     }
+
     .accommodation-section .text-picture{
       font-size: 81%;
     }
+
     .accommodation-section img{
       height: 120px;
     }
 
-    /****** popular*******/
+    /* popular */
+
     .popular-section .border-popular{
       margin-left: 10px;
       width: 90%
     }
+
     .popular-section .text-picture{
       font-size: 81%;
       line-height: 18px;
       margin-top: 15px;
     }
+
     .popular-section .star{
       margin-top: 10px;
     }
+
     .popular-section h2{
       font-size: 119%;
     }
+
     .popular-section p{
       font-size: 100%;
       padding-bottom: 40px;
@@ -500,13 +513,15 @@ footer a{
       width: 85%;
     }
     
-    /****** footer ******/
+    /* footer */
+
     .bloc-footer{
-      width: 87%;
+      width: 100%;
     }
   }
       
   @media screen and (max-width: 992px){
+    
     *{
       box-sizing: content-box;
     }
@@ -524,16 +539,19 @@ footer a{
       color: #0065fc;
     }
 
-    /* ************navigation bar ***************/
+    /* navigation bar */
+
     header {
       display: block;
       padding-bottom: 20px;
     }
+
     header img{
       display: block;
       margin: auto;
       padding-left: 40px;
     }
+
     header ul{
       justify-content: space-around;
       margin-top: 30px;
@@ -549,15 +567,18 @@ footer a{
       border-top: none;
     }
 
-    /************ search **************/
+    /* search */
+
     .search-bar input{
       width: 220px;
       font-size: 100%;
     }
+
     .search-bar .search{
       width: 50px;
       display: none;
     }
+
     .search-bar .fa-search{
       display: flex;
       justify-content: center;
@@ -569,49 +590,60 @@ footer a{
       width: 50px;
       margin-left: -10px;
     }
+
      .search-bar h1{
       font-size: 119%;
     }
 
-    /********* filters*************/
+    /* filters */
+
     .filters-section .filters-icon{
       margin-left: 20px;
     }
+
     .filters-section p{
       font-size: 100%;
     }
+
     .filters-section{
       flex-direction: column;
     }
+
     .filters-column{
       flex-direction: column;
       align-items: flex-start;
     }
+
     .filters-section .filters{
       margin: 10px 20px 0 0;
       padding-right: 10px;
     }
 
-    /*********info***********/
+    /* info */
+
     .info-section h2{
       font-size: 95%;
       margin-left: 10px;
     }
 
-    /******* main **********/
+    /* main */
+
     main{
       margin-left: 0;
       flex-direction: column-reverse;
     }
     
-    /********** accommodation-section***********/
+    /* accommodation-section */
+
     .accommodation-section .bloc1{
       flex-direction: column;
       width: 100%;
     }
+
     .accommodation-section span{
       margin-left: 10px;
     }
+
     .accommodation-section{
       flex: none;
       width: 90%;
@@ -620,17 +652,21 @@ footer a{
       height: auto;
       background-color: white
     }
+
     .accommodation-section h2{
       margin: 25px 0;
     }
+
     .accommodation-section .border-picture{
       width: 95%;
       margin-bottom: 20px;
     }
+
     .accommodation-section img{
       object-fit: cover;
       height: 180px;
     }
+
     .accommodation-section .border-popular{
       width: 100%;
     }
@@ -638,7 +674,9 @@ footer a{
     .accommodation-section .bloc2 {
       justify-content: start;
   }
-    /********popular section*********/
+
+    /* popular section */
+
     .popular-section{
       flex: none;
       width: 90%;
@@ -647,35 +685,43 @@ footer a{
       border-radius: 0;
       height: 560px;
     }
+
     .popular-section .title-graph{
       margin-top: 0;
       display: flex;
       justify-content: space-between;
     }
+
     .popular-section .border-popular{
       width: auto;
       margin-left: 0;
       margin-bottom: 15px;
     }
+
     .popular-section img{
       height: 140px;
       width: 250px;
       padding: 1%;
     }
+
     .popular-section .text-picture{
       margin-left: 30px;
     }
+
     .popular-section h4{
       font-size: 119%;
     }
+
     .popular-section p{
       font-size: 100%;
     }
+
     .popular-section .star{
       font-size: 100%;
     }
 
-    /*******activity-section*******/
+    /* activity-section */
+
     .activity-section{
       height: 1900px;
       margin-left: 55px;
@@ -686,26 +732,30 @@ footer a{
       width: 90%;
       padding-left: 0;
     }
+
     .activity-section .bloc-card{
       flex-direction: column;
       width: 90%;
     }
+
     .activity-section img{
       height: 210px;
       width: 100%;
     }
+
     .activity-section .border-activity{
-      margin-bottom: 20px;
-     
+      margin-bottom: 20px; 
     }
+
     .activity-section .card-column{
       padding-left: 0;
     }
+
     .activity-section .card-column .border-activity{
       margin-bottom: 25px;
     }
 
-    /******* footer*****/
+    /* footer */
 
     .bloc-footer{
       height: auto;
@@ -716,19 +766,24 @@ footer a{
   @media screen and (max-width: 599px){
 
     /* popular */
+
     .popular-section h4{
       font-size: 100%;
     }
+
     .popular-section p{
       font-size: 87%;
     }
+
     .popular-section .star{
       font-size: 87%;
       margin-top: 25px;
     }
+
     .popular-section img{
       width: 160px;
     }
+
     .activity-section{
       margin-left: 30px;
     }
@@ -744,64 +799,79 @@ footer a{
   text-decoration: none;
 }
 
-    /***** navigation bar*****/
+    /* navigation bar */
+
     /* header nav{
       flex-basis: 100%;
     } */
+    
     header ul{
       flex-wrap: nowrap;
     }
-    header ul li{
-      margin-right: 10px;
-    }
 
-    /***** search bar*****/
+    /* search bar */
+
     .search-bar h1{
       width: 270px;
     }
+
     .search-bar p{
       font-size: 14.4px;
     }
-    /*****filters******/
+
+    /* filters */
+
     .filters-section h3{
       font-size: 125%;
       margin-bottom: 20px;
     }
 
-    /****info******/
+    /* info */
+
     .info-section .circle-info{
       margin: 0 0 20px 20px;
     }
 
-    /***** accommodation-section*****/
+    /* accommodation-section */
+
     .accommodation-section .border-picture{
       height: 210px;
       padding-bottom: 0;
     }
+
     .accommodation-section img{
       height: 120px;
       width: 100%;
     }
 
-    /******popular-section*****/
+    /* popular-section */
+
+    .popular-section{
+      width: 100%
+    }
+
     .popular-section img{
       width: 130px;
       height: 140px;
       padding: 2%
     }
 
-    /******section 6 activités******/
+    /* section 6 activités */
+
     .activity-section{
       height: 1300px;
     }
+
     .activity-section .border-activity{
       height: 155px;
     }
+
     .activity-section img{
       height: 120px;
     }
     
-    /****** footer***** */
+    /* footer */
+    
     footer ul{
       margin-bottom: 10px;
     }
