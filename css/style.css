@@ -363,6 +363,10 @@ main{
   margin-bottom: 50px;
 } 
 
+.activity-card {
+  margin-bottom: 50px;
+} 
+
 .activity-section img{
   object-fit: cover;
   width: 285px;
@@ -398,6 +402,18 @@ main{
 } 
 
 .border-activity:hover{
+  transform: scale(1.03);
+}
+
+.activity-card{
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.062);
+  max-height: 535px;
+  transition: 0.8s;
+  padding-bottom: 20px;
+} 
+
+.activity-card:hover{
   transform: scale(1.03);
 }
 
@@ -519,8 +535,8 @@ footer a{
       width: 100%;
     }
   }
-      
-  @media screen and (max-width: 992px){
+
+  @media screen and (max-width: 991px){
     
     *{
       box-sizing: content-box;
@@ -723,19 +739,14 @@ footer a{
     /* activity-section */
 
     .activity-section{
-      height: 1900px;
+      height: 1800px;
       margin-left: 55px;
-    }
-    
-    .activity-section .bloc-card{
-      flex-direction: column;
-      width: 90%;
-      padding-left: 0;
     }
 
     .activity-section .bloc-card{
       flex-direction: column;
       width: 90%;
+      margin-top: 600px;
     }
 
     .activity-section img{
@@ -755,6 +766,10 @@ footer a{
       margin-bottom: 25px;
     }
 
+    .activity-card{
+      margin-bottom: 25px;
+    }
+
     /* footer */
 
     .bloc-footer{
@@ -762,7 +777,7 @@ footer a{
       flex-direction: column;
     }
   }
-  
+
   @media screen and (max-width: 599px){
 
     /* popular */
@@ -786,6 +801,10 @@ footer a{
 
     .activity-section{
       margin-left: 30px;
+    }
+
+    .bloc-card{
+      margin-top: 300px;
     }
   }
   
@@ -859,10 +878,18 @@ footer a{
     /* section 6 activités */
 
     .activity-section{
-      height: 1300px;
+      height: 1200px;
+    }
+
+    .activity-section .bloc-card{
+      margin-top: 300px;
     }
 
     .activity-section .border-activity{
+      height: 155px;
+    }
+
+    .activity-card{
       height: 155px;
     }
 
@@ -875,5 +902,23 @@ footer a{
     footer ul{
       margin-bottom: 10px;
     }
-    
-  }
+}
+
+@media screen and (max-width: 2560px){
+
+      .bloc-card{
+      justify-content: space-around;
+      }
+
+      header{
+        width: 100%;
+      }
+
+      main{
+        width: 100%;
+      }
+
+      footer{
+        width: 100%;
+      }
+      }
